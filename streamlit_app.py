@@ -1,17 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
-get_ipython().system('pip install streamlit panda')
-
-
-# In[3]:
-
-
 import streamlit as st
 import pandas as pd
+
+st.set_page_config(
+    page_title="Ye (Sunny) Xuan | Interactive Resume",
+    layout="wide"
+)
 
 st.set_page_config(
     page_title="Ye (Sunny) Xuan | Interactive Resume",
